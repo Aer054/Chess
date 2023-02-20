@@ -1,0 +1,23 @@
+﻿<Window x:Class="Chess.NewPiecesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess"
+        mc:Ignorable="d"
+        Title="NewPiecesWindow" Height="100" Width="300" ResizeMode="NoResize">
+    <ItemsControl  ItemsSource="{Binding Cells}" Margin="0,0,0,1">
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <UniformGrid  Rows="1" Columns="4"/>
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate >
+            <DataTemplate>
+                <Button Height="50" Width="50" Background="{Binding Color}" Command="{Binding Move}" CommandParameter="{Binding}" BorderBrush="{Binding BorderBrushColor}">
+                    <Image Source="{Binding ImageSource}"/>
+                </Button>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</Window>

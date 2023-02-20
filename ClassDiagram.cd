@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chess.MainViewModel">
+    <Position X="2.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQACABAAAQAGIAEAAAQAgAAEAAAAAAAAAABAEAA=</HashCode>
+      <FileName>MainViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.NewPiecesViewModel">
+    <Position X="6" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABIAIAAAACgAAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>NewPiecesViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.WinnerViewModel">
+    <Position X="9.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAIACAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WinnerViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.DrawViewModel">
+    <Position X="7" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQgAAAAIAIAAAAQAAgAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DrawViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
